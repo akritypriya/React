@@ -32,3 +32,37 @@ used in the project.
 -Host https
 -Tree shaking-Remove unused code
 -Different dev and prod bundles
+
+
+#FoodZone App
+header
+ -logo
+ -nav items
+Body
+ -search
+ -RestaurantContainer
+    -RestaurantCard
+      -img
+      -name,rating,area,cuisnie
+Footer
+  -copyright
+  -links
+  -address
+  -contact
+
+
+types of exports & imports
+-default
+export default Component;
+import Component from "path";
+
+-naming
+export const Component;
+import {Component} from path;
+
+#React hooks
+(Normal js utility functions)
+-useState() -(mostly use 80%)
+superpower react variabes
+
+-useEffect()
